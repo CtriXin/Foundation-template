@@ -9,6 +9,6 @@
     "mappings": "AAAA;AACA;;;;;kBAGe;AACb;AACEA,QAAM;AAFK,C",
     "file": "../../../src/common/config/config.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * config\n */\nexport default {\n  //key: value\n    port: 8888\n};"
+        "'use strict';\n/**\n * config\n */\nexport default {\n  //key: value\n    port: 9888\n};"
     ]
 }

@@ -6,6 +6,6 @@
 exports.__esModule = true;
 exports.default = {
   //key: value
-  port: 8888
+  port: 9888
 };
 //# sourceMappingURL=config.js.map

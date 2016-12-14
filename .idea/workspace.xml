@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.thinkjsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/blog.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/content.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/sidebar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/theme.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/topbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/content.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/sidebar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/theme.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/topbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/content.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/dashboard.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/sidebar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/sidebar.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/topbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/topbar.css.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/config/config.js" afterPath="$PROJECT_DIR$/app/common/config/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/config/config.js.map" afterPath="$PROJECT_DIR$/app/common/config/config.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/config/config.js" afterPath="$PROJECT_DIR$/src/common/config/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/public/head.ejs" afterPath="$PROJECT_DIR$/view/home/public/head.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/public/sidebar.ejs" afterPath="$PROJECT_DIR$/view/home/public/sidebar.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/sidebar.scss" afterPath="$PROJECT_DIR$/www/static/sass/sidebar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/theme.css" afterPath="$PROJECT_DIR$/www/static/sass/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/theme.css.map" afterPath="$PROJECT_DIR$/www/static/sass/theme.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +52,34 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index_index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/home/index_index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/home/public/sidebar.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="142" column="37" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="142" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>h5</find>
+      <find>adm</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +88,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/node/src/home/controller/index.js" />
+        <option value="$PROJECT_DIR$/src/common/config/config.js" />
+        <option value="$PROJECT_DIR$/www/static/sass/sidebar.scss" />
+        <option value="$PROJECT_DIR$/view/home/public/head.ejs" />
+        <option value="$PROJECT_DIR$/view/home/public/sidebar.ejs" />
       </list>
     </option>
   </component>
@@ -48,10 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_foundation/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
+    <option name="x" value="1920" />
     <option name="y" value="-614" />
     <option name="width" value="1080" />
     <option name="height" value="1897" />
@@ -71,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -95,12 +153,144 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_foundation" />
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Foundation-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,10 +304,60 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.Node_foundation">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="false" name="Node_foundation" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="node_foundation/www/development.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Node_foundation" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="www/development.js" working-dir="$PROJECT_DIR$">
       <profiling v8-profiler-path="" />
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -160,62 +400,37 @@
       <option name="presentableId" value="Default" />
       <updated>1481687308601</updated>
       <workItem from="1481687310628" duration="576000" />
+      <workItem from="1481699475175" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576000" />
+    <option name="totallyTimeSpent" value="1115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="-614" width="1080" height="1897" extended-state="6" />
-    <editor active="false" />
+    <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24929178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24929178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/www/development.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/logic/index.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/model/relation.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/model/mongo.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/model/index.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/db.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/config.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/error.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/hook.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/session.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/view.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/env/development.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/env/production.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/env/testing.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/config/locale/en.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/adapter/base.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/service/index.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/controller/index.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/controller/rest.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/controller/error.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/controller/base.js" />
-        <option value="$PROJECT_DIR$/node/node_modules/thinkjs/template/middleware/base.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -225,100 +440,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/view/home/index_index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/app/home/controller/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1167">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1475978738000" expanded="true" signature="1137:1290" ph="/*...*/" />
-            <marker date="1475978738000" expanded="true" signature="1320:11627" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="1515:2330" ph="/** index action ...*/" />
-            <marker date="1475978738000" expanded="true" signature="2389:2480" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="2543:2581" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="2644:2682" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="2753:2791" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="2850:2888" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="2947:2985" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3048:3086" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3147:3185" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3242:3280" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3341:3379" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3445:3483" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3553:3591" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3649:3687" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3751:3789" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3853:3891" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="3907:3933" ph="/*...*/" />
-            <marker date="1475978738000" expanded="true" signature="3938:4060" ph="/** step I ...*/" />
-            <marker date="1475978738000" expanded="true" signature="4109:5710" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="4199:5625" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="4297:5607" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="4308:5606" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="4348:5605" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="4562:4728" ph="//..." />
-            <marker date="1475978738000" expanded="true" signature="4907:5026" ph="//..." />
-            <marker date="1475978738000" expanded="true" signature="5235:5482" ph="{&quot;orignalbucket&quot;: bucname...}" />
-            <marker date="1475978738000" expanded="true" signature="5720:6576" ph="/** step I.I ...*/" />
-            <marker date="1475978738000" expanded="true" signature="6627:7629" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="6719:7539" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="6826:7520" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="6837:7519" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="6879:7518" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="7640:8552" ph="/** step II ...*/" />
-            <marker date="1475978738000" expanded="true" signature="8603:9653" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="8695:9563" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="8774:9544" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="8785:9543" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="8827:9542" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="9665:10090" ph="/** 删除单条记录 ...*/" />
-            <marker date="1475978738000" expanded="true" signature="10139:11609" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10231:11523" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10333:11504" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10344:11503" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10386:11502" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10879:11456" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="10923:11232" ph="{...}" />
-            <marker date="1475978738000" expanded="true" signature="11238:11426" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/www/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/www/development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/src/home/controller/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/src/home/controller/base.js">
+    <entry file="file://$PROJECT_DIR$/node/view/home/index_index.ejs" />
+    <entry file="file://$PROJECT_DIR$/node/app/home/controller/index.js" />
+    <entry file="file://$PROJECT_DIR$/node/www/README.md" />
+    <entry file="file://$PROJECT_DIR$/node/www/development.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/home/controller/index.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/home/controller/base.js" />
+    <entry file="file://$PROJECT_DIR$/src/common/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/sass/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="905" column="24" lean-forward="true" selection-start-line="905" selection-start-column="24" selection-end-line="905" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/sass/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="337" column="12" lean-forward="true" selection-start-line="337" selection-start-column="12" selection-end-line="337" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/sass/sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home/public/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/sass/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/lang/dataTables/de_DE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home/index_index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home/public/sidebar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="142" column="37" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="142" selection-end-column="37" />
           <folding />
         </state>
       </provider>

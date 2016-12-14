@@ -59,11 +59,22 @@ body {
         color: white;
         opacity: 0.9;
         position: relative;
-        top: 25px;
+        top: 20px;
         letter-spacing: 5px;
         font-weight: normal;
         font-size: 18px;
-        left: 15px;
+        padding-left: 15px;
+    }
+    h5{
+        color: white;
+        opacity: 0.9;
+        position: relative;
+        top: 12px;
+        letter-spacing: 5px;
+        font-weight: normal;
+        font-size: 12px;
+        /* left: 15px; */
+        padding-left: 15px;
     }
     span {
         position: relative;
