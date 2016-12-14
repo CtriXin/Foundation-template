@@ -20,4 +20,4 @@ p.s 再做的时候 还么有更新foundation6，所以使用了foundation5，�
 so far 已经制作了以下页面
 
 1. `index` — 首页。。。。
-2. ​
+2. `form` — 
