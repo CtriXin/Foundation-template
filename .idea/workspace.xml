@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_foundation/.thinkjsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/blog.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/content.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/sidebar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/theme.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/5d015fe2161ee080f4571406cd7ff8417aed7f86/topbar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/content.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/sidebar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/theme.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/.sass-cache/f97ea4bc5265a02e060bd7d83b9feffb0908f198/topbar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/content.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/dashboard.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/sidebar.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/topbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/sass/css/topbar.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/config/config.js" afterPath="$PROJECT_DIR$/app/common/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/config/config.js.map" afterPath="$PROJECT_DIR$/app/common/config/config.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/config/config.js" afterPath="$PROJECT_DIR$/src/common/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/public/head.ejs" afterPath="$PROJECT_DIR$/view/home/public/head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/public/sidebar.ejs" afterPath="$PROJECT_DIR$/view/home/public/sidebar.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/sidebar.scss" afterPath="$PROJECT_DIR$/www/static/sass/sidebar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/theme.css" afterPath="$PROJECT_DIR$/www/static/sass/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/sass/theme.css.map" afterPath="$PROJECT_DIR$/www/static/sass/theme.css.map" />
-    </list>
+    <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -66,8 +31,8 @@
       <file leaf-file-name="sidebar.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/public/sidebar.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="142" column="37" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="142" selection-end-column="37" />
+            <state relative-caret-position="2576">
+              <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -400,12 +365,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481687308601</updated>
       <workItem from="1481687310628" duration="576000" />
-      <workItem from="1481699475175" duration="539000" />
+      <workItem from="1481699475175" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1115000" />
+    <option name="totallyTimeSpent" value="1198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -520,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/public/sidebar.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="142" column="37" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="142" selection-end-column="37" />
+        <state relative-caret-position="2576">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding />
         </state>
       </provider>

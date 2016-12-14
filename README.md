@@ -16,6 +16,8 @@
 
 p.s 再做的时候 还么有更新foundation6，所以使用了foundation5，而最近（2016年）发现SemanticUI可能也不失为一种更好的解决方案。
 
+
+
 ## node
 
 此项目为node.js项目，需要有node.js基础，而在此项目中 我使用了thinkjs （一款使用ES6/7 特性开发的node.js MVC框架，使用`async/await` 或者 `*/yield`的特性解决node.js异步嵌套的问题）
