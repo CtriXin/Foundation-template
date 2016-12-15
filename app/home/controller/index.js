@@ -37,6 +37,23 @@ var _class = function (_Base) {
     return this.display();
   };
 
+  _class.prototype.uploadAction = function uploadAction() {
+
+    // let dir = this.post('filename')
+    return this.display();
+  };
+
+  _class.prototype.xhr2Action = function xhr2Action() {
+    console.log('haha');
+    var dir = this.post('filename');
+    console.log(dir);
+    var md5 = think.md5(dir);
+    dir = 'upload/' + md5;
+    if (think.isEmpty('upload/' + md5)) {
+      think.mkdir('upload');
+    }
+  };
+
   return _class;
 }(_base2.default);
 
