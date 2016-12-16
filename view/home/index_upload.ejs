@@ -1,37 +1,10 @@
-<% include public/head.ejs %>
-<%# 请在下方输入自定义页面css%>
-
-
-
-
-<%# 请在上方输入自定义页面css%>
-
-<!--左侧目录,顶部搜索,用户下拉-->
-<% include public/sidebar.ejs %>
-
-
-
-
-
-
-
-
-
-<%# 页面导航 自己修改 %>
-<!-- breadcrumbs -->
-<ul class="breadcrumbs">
-    <li><a href="#"><span class="fa fa-home fa-fw"></span></a>
-    </li>
-    <li>Dashboard
-    </li>
-</ul>
-<!-- end of breadcrumbs -->
-
-
-
-
-<%# body 内容 %>
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>xhr2</title>
+</head>
+<body>
 <div  id="drop_area" style="border:3px dashed silver;width:200px; height:200px">
     将图片拖拽到此
 </div>
@@ -42,25 +15,6 @@
 <br />
 <!--<button onclick="xhr2()">ajax上传</button>-->
 <button onclick="stopup()" id="stop">上传</button>
-
-
-<script>
-
-</script>
-
-
-
-
-
-
-
-
-
-<!--main js-->
-<% include public/footer.ejs %>
-
-<%# 请在下方输入自定义页面js%>
-
 <script>
     //拖拽上传开始
     //-1.禁止浏览器打开文件行为
@@ -126,26 +80,26 @@
         filesize= resultfile.size;
         setsize=500*1024;
         filecount = filesize/setsize;
-        //console.log(filecount)
+        console.log('需要多少次上传：',filecount);
         //定义进度条
         pro.max=parseInt(Math.ceil(filecount));
 
 
 
-        i =getCookie(resultfile.name);
-        i = (i!=null && i!="")?parseInt(i):0;
-
-        if(Math.floor(filecount)<i){
-            alert("已经完成");
-            pro.value=i+1;
-            persent.innerHTML="100%";
-
-        }else{
-            alert(i);
-            pro.value=i;
-            p=parseInt(i)*100/Math.ceil(filecount);
-            persent.innerHTML=parseInt(p)+"%";
-        }
+//        i =getCookie(resultfile.name);
+//        i = (i!=null && i!="")?parseInt(i):0;
+//
+//        if(Math.floor(filecount)<i){
+//            alert("已经完成");
+//            pro.value=i+1;
+//            persent.innerHTML="100%";
+//
+//        }else{
+//            alert(i);
+//            pro.value=i;
+//            p=parseInt(i)*100/Math.ceil(filecount);
+//            persent.innerHTML=parseInt(p)+"%";
+//        }
 
     },false);
 
@@ -192,16 +146,17 @@
         //return false;
         formData.append('blobname', i); //++++++++++
         formData.append('filename', resultfile.name); //++++++++++
-        console.log(formData)
+
+        console.log(blobfile,i,resultfile.name)
         //post方式
-        xhr.open('POST', 'xhr2'); //第二步骤
+        xhr.open('POST', 'uploadtest'); //第二步骤
         //发送请求
         xhr.send(formData);  //第三步骤
         stopbutton.innerHTML = "暂停";
         //ajax返回
         xhr.onreadystatechange = function(){ //第四步
             if ( xhr.readyState == 4 && xhr.status == 200 ) {
-                console.log( xhr.responseText );
+//                console.log( xhr.responseText );
                 if(i<filecount){
                     xhr2();
                 }else{
@@ -259,18 +214,4 @@
 
     }
 </script>
-<script type="text/javascript">
-    (function($) {
-        "use strict";
-
-
-
-
-
-    })(jQuery);
-</script>
-<%# 请在上方输入自定义页面js%>
-
-<% include public/ending.ejs%>
-
-
+</body>

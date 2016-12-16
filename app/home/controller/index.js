@@ -2,6 +2,10 @@
 
 exports.__esModule = true;
 
+var _typeof2 = require('babel-runtime/helpers/typeof');
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
 var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
@@ -38,20 +42,37 @@ var _class = function (_Base) {
   };
 
   _class.prototype.uploadAction = function uploadAction() {
-
     // let dir = this.post('filename')
+    var allFiles = this.file(); //获取所有上传的文件
+    console.log(allFiles);
     return this.display();
   };
 
-  _class.prototype.xhr2Action = function xhr2Action() {
-    console.log('haha');
-    var dir = this.post('filename');
-    console.log(dir);
-    var md5 = think.md5(dir);
-    dir = 'upload/' + md5;
-    if (think.isEmpty('upload/' + md5)) {
-      think.mkdir('upload');
+  _class.prototype.uploadfileAction = function uploadfileAction() {
+    var $self = this;
+    console.log(this.post());
+    if (think.isFile()) {
+      console.log('aaaa');
     }
+    var allFiles = this.file('file'); //获取所有上传的文件
+    console.log(allFiles);
+    console.log(this.file());
+    // if(this.files.size > 50*1024*1024){
+    //     console.log('aaa')
+    // }else{
+    //     console.log('bbbb')
+    // }
+  };
+
+  _class.prototype.uploadtestAction = function uploadtestAction() {
+    console.log('haha');
+    console.log((0, _typeof3.default)(this.file()));
+    var $self = this;
+    console.log(this.file().file.size);
+    var dir = this.post('filename');
+    think.mkdir('upload');
+    var filePath = think.RESOUCE_PATH + dir;
+    this.download(filePath);
   };
 
   return _class;

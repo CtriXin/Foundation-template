@@ -7,19 +7,26 @@
         "indexAction",
         "display",
         "uploadAction",
-        "xhr2Action",
+        "allFiles",
+        "file",
         "console",
         "log",
-        "dir",
+        "uploadfileAction",
+        "$self",
         "post",
-        "md5",
         "think",
-        "isEmpty",
-        "mkdir"
+        "isFile",
+        "uploadtestAction",
+        "size",
+        "dir",
+        "mkdir",
+        "filePath",
+        "RESOUCE_PATH",
+        "download"
     ],
-    "mappings": "AAAA;;;;;;;;;;;;;;;;AAEA;;;;;;;;;;;;;;AAGE;;;;mBAIAA,W,0BAAa;AACX;AACA,WAAO,KAAKC,OAAL,EAAP;AACD,G;;mBAGDC,Y,2BAAc;;AAEZ;AACA,WAAO,KAAKD,OAAL,EAAP;AACD,G;;mBAEDE,U,yBAAY;AACVC,YAAQC,GAAR,CAAY,MAAZ;AACA,QAAIC,MAAM,KAAKC,IAAL,CAAU,UAAV,CAAV;AACAH,YAAQC,GAAR,CAAYC,GAAZ;AACA,QAAIE,MAAMC,MAAMD,GAAN,CAAUF,GAAV,CAAV;AACAA,UAAM,YAAYE,GAAlB;AACA,QAAGC,MAAMC,OAAN,CAAc,YAAYF,GAA1B,CAAH,EAAkC;AAC9BC,YAAME,KAAN,CAAY,QAAZ;AACH;AACF,G",
+    "mappings": "AAAA;;;;;;;;;;;;;;;;;;;;AAEA;;;;;;;;;;;;;;AAGE;;;;mBAIAA,W,0BAAa;AACX;AACA,WAAO,KAAKC,OAAL,EAAP;AACD,G;;mBAGDC,Y,2BAAc;AACZ;AACE,QAAIC,WAAW,KAAKC,IAAL,EAAf,CAFU,CAEkB;AAC5BC,YAAQC,GAAR,CAAYH,QAAZ;AACF,WAAO,KAAKF,OAAL,EAAP;AACD,G;;mBAEDM,gB,+BAAkB;AACd,QAAIC,QAAQ,IAAZ;AACAH,YAAQC,GAAR,CAAY,KAAKG,IAAL,EAAZ;AACA,QAAGC,MAAMC,MAAN,EAAH,EAAkB;AAChBN,cAAQC,GAAR,CAAY,MAAZ;AACD;AACD,QAAIH,WAAW,KAAKC,IAAL,CAAU,MAAV,CAAf,CANc,CAMoB;AAClCC,YAAQC,GAAR,CAAYH,QAAZ;AACAE,YAAQC,GAAR,CAAY,KAAKF,IAAL,EAAZ;AACA;AACA;AACA;AACA;AACA;AACH,G;;mBAECQ,gB,+BAAmB;AACjBP,YAAQC,GAAR,CAAY,MAAZ;AACAD,YAAQC,GAAR,uBAAoB,KAAKF,IAAL,EAApB;AACA,QAAII,QAAQ,IAAZ;AACAH,YAAQC,GAAR,CAAY,KAAKF,IAAL,GAAYA,IAAZ,CAAiBS,IAA7B;AACA,QAAIC,MAAM,KAAKL,IAAL,CAAU,UAAV,CAAV;AACAC,UAAMK,KAAN,CAAY,QAAZ;AACA,QAAIC,WAAWN,MAAMO,YAAN,GAAqBH,GAApC;AACA,SAAKI,QAAL,CAAcF,QAAd;AAEH,G",
     "file": "../../../src/home/controller/index.js",
     "sourcesContent": [
-        "'use strict';\n\nimport Base from './base.js';\n\nexport default class extends Base {\n  /**\n   * index action\n   * @return {Promise} []\n   */\n  indexAction(){\n    //auto render template file index_index.html\n    return this.display();\n  }\n\n\n  uploadAction(){\n\n    // let dir = this.post('filename')\n    return this.display();\n  }\n\n  xhr2Action(){\n    console.log('haha');\n    let dir = this.post('filename');\n    console.log(dir);\n    let md5 = think.md5(dir)\n    dir = 'upload/' + md5;\n    if(think.isEmpty('upload/' + md5)){\n        think.mkdir('upload')\n    }\n  }\n\n\n\n\n}"
+        "'use strict';\n\nimport Base from './base.js';\n\nexport default class extends Base {\n  /**\n   * index action\n   * @return {Promise} []\n   */\n  indexAction(){\n    //auto render template file index_index.html\n    return this.display();\n  }\n\n\n  uploadAction(){\n    // let dir = this.post('filename')\n      let allFiles = this.file(); //获取所有上传的文件\n      console.log(allFiles)\n    return this.display();\n  }\n\n  uploadfileAction(){\n      let $self = this;\n      console.log(this.post());\n      if(think.isFile()){\n        console.log('aaaa')\n      }\n      let allFiles = this.file('file'); //获取所有上传的文件\n      console.log(allFiles);\n      console.log(this.file());\n      // if(this.files.size > 50*1024*1024){\n      //     console.log('aaa')\n      // }else{\n      //     console.log('bbbb')\n      // }\n  }\n\n    uploadtestAction() {\n      console.log('haha');\n      console.log(typeof (this.file()));\n      let $self = this;\n      console.log(this.file().file.size)\n      let dir = this.post('filename');\n      think.mkdir('upload');\n      let filePath = think.RESOUCE_PATH + dir;\n      this.download(filePath)\n\n  }\n\n\n\n\n}"
     ]
 }
