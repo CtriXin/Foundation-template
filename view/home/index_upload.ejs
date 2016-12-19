@@ -86,20 +86,20 @@
 
 
 
-//        i =getCookie(resultfile.name);
-//        i = (i!=null && i!="")?parseInt(i):0;
-//
-//        if(Math.floor(filecount)<i){
-//            alert("已经完成");
-//            pro.value=i+1;
-//            persent.innerHTML="100%";
-//
-//        }else{
-//            alert(i);
-//            pro.value=i;
-//            p=parseInt(i)*100/Math.ceil(filecount);
-//            persent.innerHTML=parseInt(p)+"%";
-//        }
+        i =getCookie(resultfile.name);
+        i = (i!=null && i!="")?parseInt(i):0;
+
+        if(Math.floor(filecount)<i){
+            alert("已经完成");
+            pro.value=i+1;
+            persent.innerHTML="100%";
+
+        }else{
+            alert(i);
+            pro.value=i;
+            p=parseInt(i)*100/Math.ceil(filecount);
+            persent.innerHTML=parseInt(p)+"%";
+        }
 
     },false);
 
