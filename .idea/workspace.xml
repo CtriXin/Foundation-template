@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_form.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+            <state relative-caret-position="832">
+              <caret line="354" column="0" lean-forward="true" selection-start-line="354" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_form.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+            <state relative-caret-position="1232">
+              <caret line="379" column="0" lean-forward="true" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -389,12 +389,12 @@
       <workItem from="1481765966620" duration="11082000" />
       <workItem from="1481851330650" duration="678000" />
       <workItem from="1482126555680" duration="2262000" />
-      <workItem from="1482197254298" duration="216000" />
+      <workItem from="1482197254298" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16224000" />
+    <option name="totallyTimeSpent" value="16247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -577,6 +577,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/home/index_upload.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <marker date="1482138349000" expanded="true" signature="405:434" ph="//..." />
+            <marker date="1482138349000" expanded="true" signature="1402:1457" ph="//..." />
+            <marker date="1482138349000" expanded="true" signature="2277:2317" ph="//..." />
+            <marker date="1482138349000" expanded="true" signature="3628:3658" ph="//..." />
+            <marker date="1482138349000" expanded="true" signature="3698:3727" ph="//..." />
+            <marker date="1482138349000" expanded="true" signature="4424:4445" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -594,35 +609,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/home/index_upload.ejs">
+    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_form.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-          <folding>
-            <marker date="1482138349000" expanded="true" signature="405:434" ph="//..." />
-            <marker date="1482138349000" expanded="true" signature="1402:1457" ph="//..." />
-            <marker date="1482138349000" expanded="true" signature="2277:2317" ph="//..." />
-            <marker date="1482138349000" expanded="true" signature="3628:3658" ph="//..." />
-            <marker date="1482138349000" expanded="true" signature="3698:3727" ph="//..." />
-            <marker date="1482138349000" expanded="true" signature="4424:4445" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/home/index_form.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+        <state relative-caret-position="832">
+          <caret line="354" column="0" lean-forward="true" selection-start-line="354" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_form.ejs">
+    <entry file="file://$PROJECT_DIR$/view/home/index_form.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+        <state relative-caret-position="1232">
+          <caret line="379" column="0" lean-forward="true" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>

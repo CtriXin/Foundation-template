@@ -342,3 +342,38 @@
 <script type="text/javascript" src="/static/js/date-dropdown/jquery.datetimepicker.js"></script>
 
 
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+
+        // MASKED INPUT
+        (function($) {
+            "use strict";
+            //选择日期下拉 调用js
+            $("#date-dropdown").dateDropdowns();
+
+            //默认日期时间选择
+            $('#datetimepicker').datetimepicker({
+                dayOfWeekStart: 1,
+                lang: 'ch',
+                format: 'y-m-d h:i',
+                step: '30'
+                // disabledDates: ['2016/04/08', '2016/04/09', '2016/04/10'],  //可选择某一天不可选择
+                // startDate: '2016/04/01'
+            });
+            //时间only
+            $('#datetimepicker1').datetimepicker({
+                datepicker: false,
+                format: 'H:i',
+                step: 5
+            });
+
+        })(jQuery);
+
+    });
+</script>
+<%# 请在上方输入自定义页面js%>
+
+<% include public/ending.ejs%>
