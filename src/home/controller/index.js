@@ -18,6 +18,10 @@ export default class extends Base {
   }
 
 
+  gridAction(){
+      return this.display();
+  }
+
 
   uploadAction(){
     // let dir = this.post('filename')
