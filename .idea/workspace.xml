@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/index_form.ejs" afterPath="$PROJECT_DIR$/view/home/index_form.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_form.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="339" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+            <state relative-caret-position="704">
+              <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -59,8 +58,8 @@
       <file leaf-file-name="index_form.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/home/index_form.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+            <state relative-caret-position="528">
+              <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -390,12 +389,12 @@
       <workItem from="1481765966620" duration="11082000" />
       <workItem from="1481851330650" duration="678000" />
       <workItem from="1482126555680" duration="2262000" />
-      <workItem from="1482197254298" duration="177000" />
+      <workItem from="1482197254298" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16185000" />
+    <option name="totallyTimeSpent" value="16224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -612,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/index_form.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
@@ -622,8 +621,8 @@
     </entry>
     <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_form.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="339" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+        <state relative-caret-position="704">
+          <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
