@@ -43,17 +43,77 @@
                 <!-- basic form -->
 
                 <div class="row">
-                    <div class="large-3 columns">
-                        <p><strong>基本表单</strong>
-                        </p>
-                        <p>所有表单也可以使用栅格化系统</p>
-                        <ul>
-                            <li>如<code>.large-6</code>, <code>.small-6</code>.</li>
-                            <li>可以创建一个row在form表单中，并试用栅格化</li>
-                        </ul>
+                    
+                    <div class="large-9 columns">
+                        <form>
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <label>输入框
+                                        <input type="text" placeholder="large-12 .columns" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="large-4 columns">
+                                    <label>输入框
+                                        <input type="text" placeholder="large-4 .columns" />
+                                    </label>
+                                </div>
+                                <div class="large-4 columns">
+                                    <label>输入框
+                                        <input type="text" placeholder="large-4 .columns" />
+                                    </label>
+                                </div>
+                                <div class="large-4 columns">
+                                    <div class="row collapse">
+                                        <label>输入框</label>
+                                        <div class="small-9 columns">
+                                            <input type="text" placeholder="small-9 columns" />
+                                        </div>
+                                        <div class="small-3 columns">
+                                            <span class="postfix">.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <label>选择框
+                                        <select>
+                                            <option value="husker">选项1</option>
+                                            <option value="starbuck">选项2</option>
+                                            <option value="hotdog">选项3</option>
+                                            <option value="apollo">选项4</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="large-6 columns">
+                                    <label>单选（radio）</label>
+                                    <input type="radio" name="pokemon" value="Red" id="radio-1">
+                                    <label for="radio-1">选项1</label>
+                                    <input type="radio" name="pokemon" value="Blue" id="radio-2">
+                                    <label for="radio-2">选项2</label>
+                                </div>
+                                <div class="large-6 columns">
+                                    <label>多选（checkbox）</label>
+                                    <input id="checkbox1" type="checkbox">
+                                    <label for="checkbox1">Checkbox 1</label>
+                                    <input id="checkbox2" type="checkbox">
+                                    <label for="checkbox2">Checkbox 2</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <label>文本输入框
+                                        <textarea rows="10" placeholder="small-12 .columns"></textarea>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
 
                     </div>
-
                 </div>
                 <!-- end of basic form -->
                 <hr>
