@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/index_typography.ejs" afterPath="$PROJECT_DIR$/view/home/index_typography.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,21 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_typography.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_typography.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_typography.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="576">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,9 +68,11 @@
       <file leaf-file-name="index_typography.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_typography.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="528">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +155,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$USER_HOME$/sina-game/Html/foundation/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/view/home/index_typography.ejs" />
       </list>
     </option>
   </component>
@@ -437,12 +431,12 @@
       <workItem from="1482285180329" duration="581000" />
       <workItem from="1482370495148" duration="1159000" />
       <workItem from="1482375010895" duration="525000" />
-      <workItem from="1482462335595" duration="209000" />
+      <workItem from="1482462335595" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21220000" />
+    <option name="totallyTimeSpent" value="21355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -753,14 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_typography.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/home/index_index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -769,18 +755,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/home/index_typography.ejs">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_typography.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="528">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/home/index_typography.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
