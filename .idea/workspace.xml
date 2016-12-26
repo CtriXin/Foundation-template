@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/home/controller/index.js" afterPath="$PROJECT_DIR$/src/home/controller/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/index_button.ejs" afterPath="$PROJECT_DIR$/view/home/index_button.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,8 +56,8 @@
       <file leaf-file-name="index_button.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_button.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="984">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -407,12 +406,12 @@
       <workItem from="1482375010895" duration="525000" />
       <workItem from="1482462335595" duration="662000" />
       <workItem from="1482472501821" duration="675000" />
-      <workItem from="1482716740845" duration="553000" />
+      <workItem from="1482716740845" duration="582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22901000" />
+    <option name="totallyTimeSpent" value="22930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -776,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/index_button.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        <state relative-caret-position="984">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
