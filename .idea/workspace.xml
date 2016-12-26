@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/view/home/index_button.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="984">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -406,12 +406,12 @@
       <workItem from="1482375010895" duration="525000" />
       <workItem from="1482462335595" duration="662000" />
       <workItem from="1482472501821" duration="675000" />
-      <workItem from="1482716740845" duration="582000" />
+      <workItem from="1482716740845" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22930000" />
+    <option name="totallyTimeSpent" value="22972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -776,7 +776,7 @@
     <entry file="file://$PROJECT_DIR$/view/home/index_button.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="984">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
