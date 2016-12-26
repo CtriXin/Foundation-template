@@ -33,6 +33,9 @@ export default class extends Base {
   }
 
 
+  editorAction(){
+      return this.display();
+  }
 
 
 
