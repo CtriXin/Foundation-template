@@ -33,10 +33,33 @@ export default class extends Base {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   uploadAction(){
     // let dir = this.post('filename')
       let allFiles = this.file(); //获取所有上传的文件
-      console.log(allFiles)
+      console.log(allFiles);
     return this.display();
   }
 
