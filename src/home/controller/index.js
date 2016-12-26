@@ -23,6 +23,16 @@ export default class extends Base {
   }
 
 
+  typographyAction(){
+      return this.display();
+  }
+
+
+  buttonAction(){
+      return this.display();
+  }
+
+
   uploadAction(){
     // let dir = this.post('filename')
       let allFiles = this.file(); //获取所有上传的文件
