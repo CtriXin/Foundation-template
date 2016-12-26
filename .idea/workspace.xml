@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/index_editor.ejs" afterPath="$PROJECT_DIR$/view/home/index_editor.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_editor.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_editor.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_editor.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="96" column="39" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="96" selection-end-column="39" />
+            <state relative-caret-position="69">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_editor.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_editor.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_editor.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            <state relative-caret-position="512">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -395,12 +394,12 @@
       <workItem from="1482375010895" duration="525000" />
       <workItem from="1482462335595" duration="662000" />
       <workItem from="1482472501821" duration="675000" />
-      <workItem from="1482716740845" duration="1185000" />
+      <workItem from="1482716740845" duration="1204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23533000" />
+    <option name="totallyTimeSpent" value="23552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -770,18 +769,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/home/index_editor.ejs">
+    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_editor.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="69">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_editor.ejs">
+    <entry file="file://$PROJECT_DIR$/view/home/index_editor.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="96" column="39" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="96" selection-end-column="39" />
+        <state relative-caret-position="512">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
