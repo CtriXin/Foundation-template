@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11854ab4-2653-4804-8b55-c39af2cd2a44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/controller/index.js" afterPath="$PROJECT_DIR$/app/home/controller/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/controller/index.js.map" afterPath="$PROJECT_DIR$/app/home/controller/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/home/controller/index.js" afterPath="$PROJECT_DIR$/src/home/controller/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/home/index_table.ejs" afterPath="$PROJECT_DIR$/view/home/index_table.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,8 +46,8 @@
       <file leaf-file-name="index_table.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_table.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="65" column="11" lean-forward="false" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="576">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +56,8 @@
       <file leaf-file-name="index_table.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_table.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="298" column="11" lean-forward="true" selection-start-line="285" selection-start-column="8" selection-end-line="298" selection-end-column="11" />
+            <state relative-caret-position="245">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="262" selection-end-column="31" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -413,12 +409,12 @@
       <workItem from="1482472501821" duration="675000" />
       <workItem from="1482716740845" duration="1801000" />
       <workItem from="1482804996241" duration="672000" />
-      <workItem from="1482894955275" duration="123000" />
+      <workItem from="1482894955275" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24944000" />
+    <option name="totallyTimeSpent" value="24976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -767,8 +763,8 @@
     </entry>
     <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_table.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="298" column="11" lean-forward="true" selection-start-line="285" selection-start-column="8" selection-end-line="298" selection-end-column="11" />
+        <state relative-caret-position="245">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="262" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
@@ -777,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/index_table.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="65" column="11" lean-forward="false" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        <state relative-caret-position="576">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
