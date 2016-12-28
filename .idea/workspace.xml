@@ -46,8 +46,8 @@
       <file leaf-file-name="index_table.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/home/index_table.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="693">
+              <caret line="280" column="89" lean-forward="false" selection-start-line="280" selection-start-column="89" selection-end-line="280" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -56,10 +56,10 @@
       <file leaf-file-name="index_table.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_table.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="262" selection-end-column="31" />
+            <state relative-caret-position="565">
+              <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="89" />
               <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -409,12 +409,12 @@
       <workItem from="1482472501821" duration="675000" />
       <workItem from="1482716740845" duration="1801000" />
       <workItem from="1482804996241" duration="672000" />
-      <workItem from="1482894955275" duration="176000" />
+      <workItem from="1482894955275" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24997000" />
+    <option name="totallyTimeSpent" value="25042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-614" width="1080" height="1897" extended-state="6" />
@@ -763,18 +763,18 @@
     </entry>
     <entry file="file://$USER_HOME$/front-end-star/tataoam-2.0/view/home/index_table.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="262" selection-end-column="31" />
+        <state relative-caret-position="565">
+          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="89" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/index_table.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="693">
+          <caret line="280" column="89" lean-forward="false" selection-start-line="280" selection-start-column="89" selection-end-line="280" selection-end-column="89" />
           <folding />
         </state>
       </provider>
