@@ -38,6 +38,10 @@ export default class extends Base {
   }
 
 
+  tableAction(){
+      return this.display();
+  }
+
 
 
 

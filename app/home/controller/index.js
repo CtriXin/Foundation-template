@@ -61,6 +61,10 @@ var _class = function (_Base) {
         return this.display();
     };
 
+    _class.prototype.tableAction = function tableAction() {
+        return this.display();
+    };
+
     _class.prototype.uploadAction = function uploadAction() {
         // let dir = this.post('filename')
         var allFiles = this.file(); //获取所有上传的文件

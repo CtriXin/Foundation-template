@@ -51,9 +51,19 @@
 <script type="text/javascript">
     (function($) {
         "use strict";
-
-
-
+        $('#example').dataTable({
+            "order": [
+                [2, "desc"]
+            ],
+            "bPaginate": true,//分页按钮
+            //"bLengthChange": true,//每行显示记录数
+            "bFilter": true,//搜索栏
+            //"bSort": true,//排序
+            "bInfo": true,//Showing 1 to 10 of 23 entries 总记录数没也显示多少等信息
+            "bStateSave": true, //保存状态到cookie *************** 很重要 ， 当搜索的时候页面一刷新
+//            "sUrl": "/static/lang/dataTables/de_DE.txt"  //语言修改
+//            "sPaginationType": "full_numbers" //分页，一共两种样式 另一种为two_button
+        });
     })(jQuery);
 </script>
 <%# 请在上方输入自定义页面js%>
