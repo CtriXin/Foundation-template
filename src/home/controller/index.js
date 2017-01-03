@@ -9,6 +9,8 @@ export default class extends Base {
    */
   indexAction(){
     //auto render template file index_index.html
+
+      // let a = api(this,'/rest/verifyCode');
     return this.display();
   }
 

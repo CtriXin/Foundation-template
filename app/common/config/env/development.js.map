@@ -3,10 +3,12 @@
     "sources": [
         "../../../../src/common/config/env/development.js"
     ],
-    "names": [],
-    "mappings": "AAAA;;;kBAEe,E",
+    "names": [
+        "api_url"
+    ],
+    "mappings": "AAAA;;;kBAEe;AACXA,aAAS;AADE,C",
     "file": "../../../../src/common/config/env/development.js",
     "sourcesContent": [
-        "'use strict';\n\nexport default {\n  \n};"
+        "'use strict';\n\nexport default {\n    api_url: 'http://dev.meme.chat'\n};"
     ]
 }

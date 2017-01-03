@@ -3,10 +3,35 @@
     "sources": [
         "../../../src/common/bootstrap/global.js"
     ],
-    "names": [],
-    "mappings": "AAAA;;;;;AAKA",
+    "names": [
+        "API_URL",
+        "think",
+        "config",
+        "global",
+        "api",
+        "self",
+        "url",
+        "user_account_info",
+        "mobile",
+        "country",
+        "type",
+        "request",
+        "require",
+        "params",
+        "option",
+        "method",
+        "json",
+        "body",
+        "console",
+        "log",
+        "get",
+        "error",
+        "response",
+        "statusCode"
+    ],
+    "mappings": ";;;;;;;;;;;;AAAA;;;;;AAKA;;;;;;;;AAQA,IAAIA,UAAUC,MAAMC,MAAN,CAAa,SAAb,CAAd;AACA;;;;;;AAMAC,OAAOC,GAAP;AAAA,0EAAa,iBAAeC,IAAf,EAAoBC,GAApB;AAAA;AAAA;AAAA;AAAA;AAAA;AACLC,yCADK,GACe;AACpBC,oCAAS,aADW;AAEpBC,qCAAS,IAFW;AAGpBC,kCAAM;AAHc,yBADf;AAMLC,+BANK,GAMKC,QAAQ,SAAR,CANL;AAOLC,8BAPK,GAOI;AACT,sCAAUN,kBAAkBC,MADnB;AAET,uCAAWD,kBAAkBE,OAFpB;AAGT,oCAAQF,kBAAkBG;AAHjB,yBAPJ;AAYLI,8BAZK,GAYI;AACTR,iCAAKN,UAAUM,GADN;AAETS,oCAAQ,KAFC;AAGTC,kCAAM,IAHG;AAIT;AACAC,kCAAMJ;AALG,yBAZJ;;AAmBTK,gCAAQC,GAAR,CAAY,OAAZ,EAAoBb,GAApB,EAAwB,IAAxB,EAA6B,MAA7B,EAAoC,IAApC,EAAyC,KAAzC,EAA+CO,MAA/C;AACAF,gCAAQS,GAAR,CAAY,EAACd,KAAIN,UAAUM,GAAf,EAAmBE,QAAO,aAA1B,EAAwCC,SAAQ,IAAhD,EAAZ,EAAkE,UAAUY,KAAV,EAAiBC,QAAjB,EAA2BL,IAA3B,EAAiC;AAC/F,gCAAI,CAACI,KAAD,IAAUC,SAASC,UAAT,IAAuB,GAArC,EAA0C;AACtCL,wCAAQC,GAAR,CAAYF,IAAZ;AACA,uCAAOZ,KAAKW,IAAL,CAAUC,IAAV,CAAP;AACH,6BAHD,MAGO;AACHC,wCAAQC,GAAR,CAAY,QAAZ,EAAqBE,KAArB;AACH;AACJ,yBAPD;AAQA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAnCS;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAb;;AAAA;AAAA;AAAA;AAAA",
     "file": "../../../src/common/bootstrap/global.js",
     "sourcesContent": [
-        "/**\n * this file will be loaded before server started\n * you can define global functions used in controllers, models, templates\n */\n\n/**\n * use global.xxx to define global functions\n * \n * global.fn1 = function(){\n *     \n * }\n */"
+        "/**\n * this file will be loaded before server started\n * you can define global functions used in controllers, models, templates\n */\n\n/**\n * use global.xxx to define global functions\n * \n * global.fn1 = function(){\n *     \n * }\n */\n\nlet API_URL = think.config('api_url');\n/**\n * oam 接口请求函数\n * @param self\n * @param url\n * @param params\n */\nglobal.api = async function(self,url){\n    let user_account_info = {\n        mobile : '18515999883',\n        country: '86',\n        type: 'sms'\n    };\n    let request = require('request');\n    let params = {\n        \"mobile\": user_account_info.mobile,\n        \"country\": user_account_info.country,\n        \"type\": user_account_info.type\n    };\n    let option = {\n        url: API_URL + url,\n        method: \"GET\",\n        json: true,\n        // headers: headers,\n        body: params\n    };\n    console.log('请求接口:',url,'--','请求头：','--','参数:',params);\n    request.get({url:API_URL + url,mobile:'18515999883',country:'86'},function (error, response, body) {\n        if (!error && response.statusCode == 200) {\n            console.log(body);\n            return self.json(body);\n        } else {\n            console.log('请求出错了:',error);\n        }\n    });\n    // request(option, function (error, response, body) {\n    //     if (!error && response.statusCode == 200) {\n    //         console.log(body);\n    //         return self.json(body);\n    //     } else {\n    //         console.log('请求出错了:',error);\n    //     }\n    // });\n};"
     ]
 }
